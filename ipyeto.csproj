@@ -1,0 +1,18 @@
+﻿<Project Sdk="Eto.Forms/2.8.3">
+
+  <!--
+    Set the BuildPlatform property to the Eto platform you wish to build for.
+    The default is the platform you are building on.
+    Valid values: Wpf, Windows, Mac64, MacOS, Gtk, Direct2D
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronPython" Version="3.4.2" />
+  </ItemGroup>
+
+</Project>
